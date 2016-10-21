@@ -48,14 +48,12 @@ textarea {
 }
 [type="submit"]:hover { background:black; }
 
-.intro{
-  /*position:relative;
-  left:20%;
-  bottom:50%;
-  */
+.intro-text{
   text-align: center;
   color:black;
-  font-family: 'Shadows Into Light', cursive;
+  position: relative;
+  top: 20%;
+  left: 1%;
   font-size: 90px;
 }
 
@@ -101,7 +99,7 @@ aside.clients img {
    background-repeat: no-repeat;
    height: auto;
    background-size: cover;
-   width: 100%;
+  width: 100%;
   height: 100%;
 }
 body {
@@ -261,26 +259,7 @@ p {
   }
 }
 
-header {
-  color: white;
 
-}
-/*
-  background:
-   second possible background background: url("../img/bg.jpg");
-
-  width: 100%;
-  height: auto;
-  background-repeat:no-repeat;
-  position: relative;
-  background-size: 100%;
-  min-height: auto;
-
-
-  overflow-y: hidden;
-
-
-*/
 header .header-content {
   text-align: center;
   padding: 150px 0 50px;
